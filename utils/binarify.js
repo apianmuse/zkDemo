@@ -3,7 +3,7 @@
 // https://github.com/iden3/websnark/blob/master/tools/buildpkey.js
 // https://github.com/iden3/websnark/blob/master/tools/buildwitness.js
 
-const { unstringifyBigInts } = require("wasmsnark/tools/stringifybigint");
+const { unstringifyBigInts} = require("snarkjs");
 const assert = require("assert");
 const bigInt = require("big-integer");
 
